@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* CSS Variable */
+:root {
+  --primary-color: #272727;
+}
+
+/* Primary Description */
+.primary-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+/* Primary Button */
+.primary-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  background-color: #272727;
+  color: #fff;
+}
+
+/* text-hilight */
+.text-hilight {
+  color: #e55473;
+}
+
+/* header part */
+.header-container {
+  background: rgba(229, 84, 115, 0.1);
+  height: 95vh;
+  padding-top: 20px;
+}
+
+/* Hero Container */
+.hero-container {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 50px;
+  padding: 200px auto;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.hero-desc {
+  margin: 32px auto;
+}
+
+.hero-img img {
+  width: 500px;
+  height: 555px;
+}
+
+/* Features Section */
+.features-section {
+  margin: 100px auto;
+}
+
+.features-title {
+  font-size: 33px;
+  color: red;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.features-desc {
+  margin: 24px auto;
+  text-align: center;
+}
+
+.features-items-container {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 935px;
+  margin: 0 auto;
+}
+
+.features-item-img-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.features-item-img-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.features-item-img-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.features-item-img-1 img {
+  height: 350px;
+  width: 300px;
+}
+.features-item-img-2 img {
+  height: 350px;
+  width: 300px;
+}
+.features-item-img-3 img {
+  height: 350px;
+  width: 300px;
+}
+
+.features-item-name {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.features-item-name a {
+  color: var(--primary-color);
+}
+
+/* Supoort Section */
+.support-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  height: 220px;
+  width: 950px;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+
+.support-items-container {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.support-item {
+}
+
+.support-item p {
+  text-align: center;
+}
+
+/* Discount Section */
+.discount-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.discount-title {
+  font-size: 35px;
+}
+
+.discount-desc {
+  margin: 24px auto;
+}
+
+/* Instagrame Section */
+.instagram-section {
+  margin: 100px auto;
+}
+
+.instagram-title {
+  font-size: 35px;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.instagram-desc {
+  margin: 24px auto;
+  text-align: center;
+}
+
+.instagram-items-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.instagram-item img {
+  width: 233px;
+}
+
+/* Subscribe Section */
+
+.subscribe-section {
+}
+
+.subscribe-container {
+  background-image: url("./images/Rectangle\ 9.png");
+  height: 300px;
+
+  max-width: 1000px;
+  margin: 50px auto;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+.subscribe-desc {
+  margin: 20px auto;
+}
+
+.subscribe-container input {
+  height: 50px;
+  width: 700px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  margin: 20px 10px 0 0;
+}
+::placeholder {
+  font: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+/* Footer */
+footer {
+  background: #111010;
+  color: #fff;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-desc {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 25px auto;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
