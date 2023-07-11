@@ -237,6 +237,10 @@ body {
   height: 280px;
   padding: 20px;
 }
+.testimonial-item:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
 .rev-desc {
   margin: 10px auto;
   color: rgba(39, 39, 39, 0.6);
