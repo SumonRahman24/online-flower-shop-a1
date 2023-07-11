@@ -246,12 +246,12 @@ body {
   width: 100px;
   border-radius: 50%;
 }
-
-/* Subscribe Section */
-
-.subscribe-section {
+.testimonial-item i {
+  color: #ffad11;
+  margin-top: 5px;
 }
 
+/* Subscribe Section */
 .subscribe-container {
   background-image: url("./images/Rectangle\ 9.png");
   height: 300px;
