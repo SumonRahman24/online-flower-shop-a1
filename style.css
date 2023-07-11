@@ -212,6 +212,41 @@ body {
   width: 233px;
 }
 
+/* Testimonial Section */
+.testimonial-title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.testimonial-desc {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.testimonial-items-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.testimonial-item {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  width: 400px;
+  height: 280px;
+  padding: 20px;
+}
+.rev-desc {
+  margin: 10px auto;
+  color: rgba(39, 39, 39, 0.6);
+}
+.testimonial-item img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 /* Subscribe Section */
 
 .subscribe-section {
